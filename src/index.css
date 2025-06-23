@@ -162,3 +162,33 @@ button:nth-of-type(3):hover {
     transform: translateY(0);
   }
 }
+
+@media screen and (max-width: 500px) {
+  .App {
+    margin: 20px 12px;
+    padding: 20px 16px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .task-item {
+    padding: 10px 12px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .task-item input[type="text"] {
+    margin-bottom: 8px;
+  }
+
+  .task-item span {
+    font-size: 1rem;
+  }
+}
