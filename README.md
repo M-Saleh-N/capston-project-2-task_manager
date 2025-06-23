@@ -21,7 +21,6 @@ A simple, responsive, and interactive Task Manager built with **React.js**. This
 - **HTML5 & CSS3**
 - **JavaScript (ES6)**
 - **VS Code + Live Server for development**
-- **Optional**: Framer Motion / LocalStorage (future upgrades)
 
 ## 📂 Project Structure
 
