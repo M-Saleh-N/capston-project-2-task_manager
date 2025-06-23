@@ -1,17 +1,22 @@
-function AddTask({ newTask, setNewTask, addTask}){
-    return(
+function TaskInput({ taskDescription, setTaskDescription, handleAddTask }) {
+    const isInputEmpty = !taskDescription.trim();
+
+    return (
         <div>
+            <label htmlFor="taskInput">Add New Task</label>
             <input
-            type="text"
-            value={newTask}
-            onChange={(e) =>
-                setNewTask(e.target.value)
-                }
-                placeholder="Add new task"
+                id="taskInput"
+                type="text"
+                value={taskDescription}
+                onChange={(e) => setTaskDescription(e.target.value)}
+                placeholder="What task are you adding?"
             />
-            <button onClick={addTask}>Add</button>
+            <button onClick={handleAddTask} disabled={isInputEmpty}>
+                Add Task
+            </button>
         </div>
     );
 }
 
-export default AddTask
+export default TaskInput;
+
