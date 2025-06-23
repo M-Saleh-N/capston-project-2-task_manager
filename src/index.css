@@ -20,3 +20,12 @@ body {
   color: #333;
 }
 
+.App {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px 25px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 0.5s ease;
+}
