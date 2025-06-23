@@ -11,6 +11,7 @@ function AddTask({ newTask, setNewTask, addTask}){
             />
             <button onClick={addTask}>Add</button>
         </div>
-
     );
 }
+
+export default AddTask
