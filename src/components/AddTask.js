@@ -9,6 +9,7 @@ function AddTask({ newTask, setNewTask, addTask}){
                 }
                 placeholder="Add new task"
             />
+            <button onClick={addTask}>Add</button>
         </div>
 
     );
